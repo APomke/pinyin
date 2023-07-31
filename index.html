@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>汉字识别拼音</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>汉字识别拼音</h1>
+    <h2>带声调</h2>
+    <input type="text" id="input" placeholder="请输入汉字...">
+    <button id="recognizeBtn">识别拼音</button>
+    <p>拼音结果: <span id="output"></span></p>
+    <h2>不带声调</h2>
+    <input type="text" id="input2" placeholder="请输入汉字...">
+    <button id="recognizeBtn2">识别拼音</button>
+    <p>拼音结果: <span id="output2"></span></p>
+    <h2>首字母风格</h2>
+    <input type="text" id="input3" placeholder="请输入汉字...">
+    <button id="recognizeBtn3">识别拼音</button>
+    <p>拼音结果: <span id="output3"></span></p>
+
+    <script src="./dist/pinyin4js.js"></script>
+    <script src="app.js"></script>
+</body>
+<p>功能实现使用以下开源：https://github.com/Kaifuny/pinyin4js/tree/master</p>
+</html>
+
